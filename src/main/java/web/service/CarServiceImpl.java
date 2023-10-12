@@ -22,14 +22,4 @@ public class CarServiceImpl implements CarService {
     public List<Car> getCars(int count) {
         return carDao.getCars(count);
     }
-
-    @Override
-    public List<Car> allCars() {
-        return null;
-    }
-
-    @Override
-    public List<Car> getCarFromListAndCount(List<Car> cars, Integer count) {
-        return null;
-    }
 }
